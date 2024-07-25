@@ -1,0 +1,48 @@
+.card{
+    display: flex;
+    align-items: center;
+    color:#fff;
+    font-size: .8rem;
+    justify-content: space-between;
+}
+
+.card-header{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-user-name{
+    opacity: .6;
+}
+
+.card-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 1000px;
+}
+
+.follow-btn{
+    margin-left: 16px;
+    border-radius: 1rem;
+    padding: 10px 20px ;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 1px solid #000;
+}
+.follow-btn.is-following:hover{
+    border: 1px solid red;
+    background: red;
+    color: #fff;
+}
+.follow-btn:hover{
+    background-color: rgb(165, 189, 255);
+
+}
